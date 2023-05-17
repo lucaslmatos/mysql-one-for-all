@@ -1,4 +1,4 @@
-SELECT 
+SELECT
     user_name AS pessoa_usuaria,
     COUNT(songs_id) AS musicas_ouvidas,
     ROUND(SUM(s.duration / 60), 2) AS total_minutos
