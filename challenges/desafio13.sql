@@ -1,11 +1,3 @@
--- SELECT
---    *
--- FROM
---     SpotifyClone.users AS u
---         LEFT JOIN
---     SpotifyClone.favorites AS f ON u.id = f.users_id
--- ;
-
 SELECT
     CASE
         WHEN age <= 30 THEN 'Até 30 anos'
